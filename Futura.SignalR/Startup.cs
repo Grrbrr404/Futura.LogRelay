@@ -1,11 +1,10 @@
-﻿using System;
-using System.Threading.Tasks;
+﻿using Futura.SignalR;
 using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartup(typeof(SignalR.Net45.Startup))]
+[assembly: OwinStartup(typeof(Startup))]
 
-namespace SignalR.Net45 {
+namespace Futura.SignalR {
 	public class Startup {
 		public void Configuration(IAppBuilder app) {
 			// For more information on how to configure your application, visit http://go.microsoft.com/fwlink/?LinkID=316888
