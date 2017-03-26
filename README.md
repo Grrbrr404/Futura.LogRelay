@@ -6,6 +6,7 @@ Using ASP.NET web api2, angular ui, signalr and nlog together, to craft a log ag
 
 Features:
 - Monitor incoming log requests in angular ui grid, having filter and ordering capabilities
+- REST & SignalR API
 - Rewrite incoming log requests to new targets
 
 
